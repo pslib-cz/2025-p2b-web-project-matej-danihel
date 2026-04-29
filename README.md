@@ -3,6 +3,10 @@ https://pslib-cz.github.io/2025-p2b-web-project-matej-danihel/
 
 # Název: Silksong Cut Content
 
-Jedná se o stránku o průběhu vývoje hry Hollow Knight: Silksong. Na hlavní stánce budou názvy a obrázky jednotlivích sekcí, ke kterým budou vždy patřit stránky s podrobnostmi a na těch bude odkaz na galerii.
+Jedná se o stránku o průběhu vývoje hry Hollow Knight: Silksong. 
 
-Dále bude v projektu individuální stránka s kontaktními informacemi a originálními autory použitých obrázků.
+- 4 hlavní unikátní stránky. Ostatní stránky budou kopie stránky Galerie a Detaily
+- Hlavní stránka: jednotlivé sekce s názvy, to jsou odkazy na stránku s detaily pro každou sekci, dále je na stránce odkaz na Kontakt
+- Stránka s detaily: stránka popisující různé sekce (lokace ve hře, nepřátelé, atd.). Obsahuje odkaz na hlavní stránku a odkaz na galerii. Na stránce jsou doplňující obrázky
+- Galerie: obsahuje obrázky, odkaz na hlavní stánku a odkaz na stánku s detaily
+- Kontakt (a autoři originálních fotek): Kontaktní informace a informace o originálních autorech
