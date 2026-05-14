@@ -1,10 +1,14 @@
 
 .container {
-    
+    display: flex;
+    background: grey;
 }
-
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 .header__title {
     display: flex;
-    align-items: center;
-    justify-items: center;
+    justify-self: center;
 }
