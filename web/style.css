@@ -1,11 +1,18 @@
-/* COLORS */
+/* Variables for different pages */
+
 .main-page {
     --theme-primary: green;
+    --direction: center;
 }
 .coral {
     --theme-primary: blue;
 }
-
+.aspid {
+    --theme-primary: greenyellow;
+}
+.description {
+    --direction: right;
+}
 
 
 
@@ -16,11 +23,11 @@
     background: grey; /* placeholder colour just to see the container */
 }
 .header {
-    background: var(--theme-primary); /* placeholder colour */
     display: flex;
-    width: 100%;
-    padding-top: 2rem;
-    justify-content: center;
+    background: var(--theme-primary);
+    justify-content: var(--direction);
+    padding: 1rem;
+    padding-right: 2rem;
 }
 .header__title {
     display: flex;
@@ -127,6 +134,35 @@
     background: var(--theme-primary);
     justify-self: right;
     align-self: flex-end;
+}
+.details__description {
+    display: flex;
+    background: white;
+    flex-wrap: wrap;
+    margin: 0.5rem;
+}
+.details__description-text {
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-self: left;
+    max-width: 1100px;
+}
+.details__image-container {
+    display: flex;
+    justify-self: end;
+    min-width: 270px;
+    max-width: 600px;
+    padding: 0.5rem;
+}
+.details__gallery-redirect {
+    display: flex;
+    justify-content: left;
+}
+.details__main-redirect {
+    display: flex;
+    justify-content: right;
+    max-width: 900px;
 }
 /* CONTACT PAGE */
 .header__contact {
