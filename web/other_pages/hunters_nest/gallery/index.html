@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/web/style.css" rel="stylesheet">
+    <title>Gallery: Hunter's Nest | Silksong Cut Content</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:opsz@17..18&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.9.0/css/lightgallery-bundle.min.css">
+    <link rel="icon" href="/hk_icon.ico">
+    <style>
+        body {
+            font-family: "Google Sans", sans-serif;
+        }
+        
+    </style>
+    <script type="module">
+        import lightgallery from 'https://cdn.jsdelivr.net/npm/lightgallery@2.9.0/+esm'
+        import lgThumbnail from 'https://cdn.jsdelivr.net/npm/lightgallery/plugins/thumbnail/+esm' 
+        import lgZoom from 'https://cdn.jsdelivr.net/npm/lightgallery/plugins/zoom/+esm'
+        lightgallery(document.getElementById('image'), {
+        plugins: [lgZoom, lgThumbnail],
+}); 
+</script>
+</head>
+<body class="nest gallery">
+    <div class="container">
+        <header class="header">
+            <h1 class="header__title">
+                Hunter's Nest: Gallery
+            </h1>
+        </header>
+        <main class="main">
+            <div id="image" class="gallery__main">
+                <a class="gallery__item" data-src="/images/hunters_nest/February_2019_Nest_Map.png">
+                    <div class="gallery__image">
+                        <img class="image" src="/images/hunters_nest/February_2019_Nest_Map.png" alt="Low quality 2019 map.">
+                    </div>
+                </a>
+                <a class="gallery__item" data-src="/images/hunters_nest/Hunter's_Nest_Subarea_1.jpeg">
+                    <div class="gallery__image">
+                        <img class="image" src="/images/hunters_nest/Hunter's_Nest_Subarea_1.jpeg" alt="Closeup image of the map of a Hunter's Nest subarea.">
+                    </div>
+                </a>
+                <a class="gallery__item" data-src="/images/hunters_nest/karmelita.png">
+                    <div class="gallery__image">
+                        <img class="image" src="/images/hunters_nest/karmelita.png" alt="Screenshot from the reveal trailer of Hollow Knight: Silksong showcasing Hornet in the opera room, fighting Karmelita.">
+                    </div>
+                </a>
+                <a class="gallery__item" data-src="/images/hunters_nest/Silksong_Early_019.png">
+                    <div class="gallery__image">
+                        <img class="image" src="/images/hunters_nest/Silksong_Early_019.png" alt="Screenshot showcasing Hornet in a Hunter's Nest room with a Skarrgard.">
+                    </div>
+                </a>
+                <a class="gallery__item" data-src="/images/hunters_nest/Silksong_Early_033.png">
+                    <div class="gallery__image">
+                        <img class="image" src="/images/hunters_nest/Silksong_Early_033.png" alt="Screenshot showcasing Hornet in a Hunter's Nest room.">
+                    </div>
+                </a>
+            </div>
+
+        </main>
+        <footer class="footer">
+            <div class="details__gallery-redirect">
+                <a class="btn" href="/web/other_pages/hunters_nest/details/index.html">Details: Hunter's Nest</a>
+            </div>
+            <div class="details__main-redirect">
+                <a class="btn" href="/index.html">Main page</a>
+            </div>
+        </footer>
+    </div>
+    
+    
+    
+    
+</body>
+</html>

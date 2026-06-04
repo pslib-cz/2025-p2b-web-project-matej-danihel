@@ -1,9 +1,13 @@
 /* Variables for different pages */
 
 .main-page {
-    --theme-primary: green;
+    --theme-primary: #eaec68;
+    --theme-secondary:#a763ff;
     --direction: center;
     --text-color: black;
+}
+.gallery {
+    --direction: center;
 }
 .coral {
     --theme-primary: #30fafa;
@@ -42,6 +46,12 @@
 }
 .description {
     --direction: right;
+}
+.contact {
+    --direction: left;
+    --theme-primary: #eb9800;
+    --theme-secondary:#7db1ff;
+    --text-color: black;
 }
 
 
@@ -213,6 +223,36 @@
 .details__main-redirect:hover {
     text-decoration: underline;
 }
+/* GALLERY */
+.gallery__main {
+    display: flex;
+    gap: 4rem;
+    margin: 0;
+    margin-top: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.gallery__item {
+    display: flex;
+    background: var(--theme-secondary);
+    min-width: 250px;
+    max-width: 400px;
+    min-height: 100px;
+    max-height: 450px;
+    align-items: center;
+    justify-content: center;
+}
+.gallery__image {
+    display: flex;
+    width: 95%;
+    height: fit-content;
+    border: solid #313131 4px;
+    justify-content: center;
+    margin-top: 0.2rem;
+}
 /* CONTACT PAGE */
 .header__contact {
     display: flex;
@@ -220,3 +260,17 @@
     padding-left: 2rem;
     align-self: center;
 }
+.contact__container {
+    display: flex;
+    width: 100%;
+    gap: 10%;
+    flex-wrap: wrap;
+}
+.contact__item {
+    max-width: 900px;
+    flex-grow: 1;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
