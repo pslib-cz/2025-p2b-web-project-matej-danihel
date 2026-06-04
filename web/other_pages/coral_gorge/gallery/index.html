@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/web/style.css" rel="stylesheet">
+    <title>Gallery: Red Coral Gorge | Silksong Cut Content</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:opsz@17..18&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.9.0/css/lightgallery-bundle.min.css">
+    <script type="module" src="js/lightgallery.min.js">
+        import lightgallery from 'https://cdn.jsdelivr.net/npm/lightgallery@2.9.0/+esm'
+        import lgThumbnail from 'lightgallery/plugins/thumbnail'
+        import lgZoom from 'lightgallery/plugins/zoom'
+    </script>
+    <style>
+        body {
+            font-family: "Google Sans", sans-serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="lightgallery">
+        <a href="/images/aspid/2021_Aspid_Map.png" data-lg-size="1600-2400">
+            <img src="/images/aspid/2021_Aspid_Map.png" alt="">
+        </a>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+    lightGallery(document.getElementById('lightgallery'), {
+        plugins: [lgZoom, lgThumbnail],
+        speed: 500,
+    });
+</script>
